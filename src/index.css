@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Base — warm, paper-like editorial theme (design.md)                 */
+/* ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    --bg-cream: #f7ede0;
+    --bg-cream-light: #fbf3e9;
+    --text-ink: #1a1512;
+    --text-muted: #675d51;
+    --accent-rust: #a8431f;
+    --accent-green: #147248;
+    --surface-white: #ffffff;
+    --border-subtle: rgba(26, 21, 18, 0.12);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 92px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-cream-light text-muted font-sans antialiased;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-ink;
+    font-weight: 700;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: rgba(193, 80, 46, 0.18);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* White floating surface card (design.md section 8) */
+  .card {
+    @apply rounded-card border border-line bg-paper shadow-card;
+  }
+
+  .card-hover {
+    transition: transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 400ms ease, border-color 400ms ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-6px);
+    @apply shadow-float;
+    border-color: rgba(26, 21, 18, 0.2);
+  }
+
+  /* Tracked-out uppercase micro-label (numbered section eyebrows) */
+  .eyebrow {
+    @apply font-mono text-eyebrow uppercase text-rust;
+  }
+
+  /* Small circular "chip" icon container with a soft tinted background */
+  .chip {
+    @apply inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full;
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-black/[0.05];
+  }
+  .skeleton::after {
+    content: '';
+    @apply absolute inset-0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    animation: shimmer 1.6s infinite;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* subtle dot texture used behind the hero */
+  .bg-dots {
+    background-image: radial-gradient(rgba(26, 21, 18, 0.14) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .italic-accent {
+    @apply font-serif italic text-rust;
+    font-weight: 400;
+  }
+}

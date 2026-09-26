@@ -1,0 +1,5 @@
+# TODO: replace with your real domain before deploying
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
