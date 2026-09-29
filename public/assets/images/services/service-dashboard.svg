@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Business data dashboard showing leads, bookings and revenue trends">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF3E9"/>
+      <stop offset="1" stop-color="#F1E3D1"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#147248" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#147248" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1A1512" flood-opacity="0.20"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1A1512" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="110" cy="120" r="130" fill="#C1502E" opacity="0.07"/>
+  <circle cx="700" cy="505" r="150" fill="#147248" opacity="0.08"/>
+
+  <!-- Browser window -->
+  <rect x="80" y="100" width="640" height="420" rx="18" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)" filter="url(#shadow)"/>
+  <path d="M80 118a18 18 0 0118-18h604a18 18 0 0118 18v26H80z" fill="#EFE2D0"/>
+  <circle cx="110" cy="122" r="5" fill="#A8431F"/>
+  <circle cx="128" cy="122" r="5" fill="#C1502E" opacity="0.7"/>
+  <circle cx="146" cy="122" r="5" fill="#147248" opacity="0.7"/>
+  <text x="180" y="127" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">app.yourbusiness.com/insights</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="112" y="164" width="180" height="84" rx="14" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <text x="130" y="190" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">Leads</text>
+    <text x="130" y="222" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="26" font-weight="700" fill="#1A1512">1,284</text>
+    <rect x="220" y="204" width="56" height="22" rx="11" fill="#DCEFE4"/>
+    <text x="248" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#147248">+32%</text>
+  </g>
+  <g>
+    <rect x="308" y="164" width="180" height="84" rx="14" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <text x="326" y="190" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">Booked</text>
+    <text x="326" y="222" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="26" font-weight="700" fill="#1A1512">412</text>
+    <rect x="416" y="204" width="56" height="22" rx="11" fill="#DCEFE4"/>
+    <text x="444" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#147248">+18%</text>
+  </g>
+  <g>
+    <rect x="504" y="164" width="180" height="84" rx="14" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <text x="522" y="190" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">Revenue</text>
+    <text x="522" y="222" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="26" font-weight="700" fill="#1A1512">$27.9k</text>
+    <rect x="612" y="204" width="56" height="22" rx="11" fill="#F6DDD3"/>
+    <text x="640" y="219" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#A8431F">+33%</text>
+  </g>
+
+  <!-- Line chart card -->
+  <rect x="112" y="264" width="356" height="232" rx="14" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+  <text x="130" y="292" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#1A1512">Revenue trend</text>
+  <g stroke="rgba(26,21,18,0.08)">
+    <line x1="134" y1="330" x2="448" y2="330"/>
+    <line x1="134" y1="368" x2="448" y2="368"/>
+    <line x1="134" y1="406" x2="448" y2="406"/>
+  </g>
+  <path d="M134 404 L198 384 L262 396 L326 348 L390 322 L446 292" fill="none" stroke="#147248" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M134 404 L198 384 L262 396 L326 348 L390 322 L446 292 L446 452 L134 452 Z" fill="url(#area)"/>
+  <g fill="#147248">
+    <circle cx="134" cy="404" r="4"/><circle cx="198" cy="384" r="4"/><circle cx="262" cy="396" r="4"/><circle cx="326" cy="348" r="4"/><circle cx="390" cy="322" r="4"/>
+  </g>
+  <circle cx="446" cy="292" r="6" fill="#FFFFFF" stroke="#147248" stroke-width="3"/>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="10" fill="#B7A895" text-anchor="middle">
+    <text x="134" y="480">Mon</text><text x="212" y="480">Tue</text><text x="290" y="480">Wed</text><text x="368" y="480">Thu</text><text x="446" y="480">Fri</text>
+  </g>
+
+  <!-- Donut card -->
+  <rect x="488" y="264" width="196" height="232" rx="14" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+  <text x="506" y="292" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#1A1512">Where it comes from</text>
+  <circle cx="586" cy="362" r="48" fill="none" stroke="#EFE2D0" stroke-width="18"/>
+  <circle cx="586" cy="362" r="48" fill="none" stroke="#147248" stroke-width="18" stroke-dasharray="166 302" stroke-linecap="round" transform="rotate(-90 586 362)"/>
+  <circle cx="586" cy="362" r="48" fill="none" stroke="#A8431F" stroke-width="18" stroke-dasharray="76 302" stroke-linecap="round" transform="rotate(108 586 362)"/>
+  <text x="586" y="358" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="18" font-weight="700" fill="#1A1512">55%</text>
+  <text x="586" y="376" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="10" fill="#675D51">organic</text>
+  <circle cx="522" cy="452" r="6" fill="#147248"/>
+  <text x="536" y="456" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#675D51">Organic</text>
+  <circle cx="612" cy="452" r="6" fill="#A8431F"/>
+  <text x="626" y="456" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#675D51">Paid</text>
+
+  <!-- Floating: growth -->
+  <g filter="url(#soft)">
+    <rect x="468" y="34" width="292" height="60" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="502" cy="64" r="15" fill="#DCEFE4"/>
+  <path d="M495 70l8-9 4 4 8-9" fill="none" stroke="#147248" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="528" y="60" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#1A1512">+33% revenue</text>
+  <text x="528" y="79" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#675D51">tracked month on month</text>
+
+  <!-- Floating: clarity -->
+  <g filter="url(#soft)">
+    <rect x="40" y="452" width="248" height="64" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="74" cy="484" r="15" fill="#EFE2D0"/>
+  <path d="M64 484h20M64 478h20M64 490h13" stroke="#675D51" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="100" y="480" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#1A1512">Know what works</text>
+  <text x="100" y="500" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">one simple dashboard</text>
+</svg>

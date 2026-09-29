@@ -92,7 +92,7 @@ For each, structure as:
 - Include a short **dummy testimonial quote** with a placeholder avatar image and fictional name/title (e.g., "Ayesha K., Owner — Bella's Bakery").
 
 ### 7. About / Why Us Section
-- Founder photo placeholder + short bio: "Hi, I'm [Your Name] — I help local business owners save time and grow revenue using practical AI tools, without needing to understand any of the tech myself." *(make this editable via siteConfig.js)*
+- Founder photo placeholder + short bio: "Hi, I'm [] — I help local business owners save time and grow revenue using practical AI tools, without needing to understand any of the tech myself." *(make this editable via siteConfig.js)*
 - 3–4 trust points with icons: "Personalized strategy, not templates", "No long-term lock-in contracts", "Results-focused, not tech-jargon", "Ongoing support & optimization".
 
 ### 8. Process/How It Works Section

@@ -6,7 +6,6 @@ import Section from '../common/Section.jsx'
 import Stagger from '../common/Stagger.jsx'
 import { staggerItem } from '../../lib/motion.js'
 import Badge from '../common/Badge.jsx'
-import SystemVisual from '../common/SystemVisual.jsx'
 import ProjectModal from './ProjectModal.jsx'
 
 export default function Work() {
@@ -37,10 +36,14 @@ export default function Work() {
               className="card card-hover group flex flex-col overflow-hidden text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rust focus-visible:ring-offset-2 focus-visible:ring-offset-cream-light"
               aria-label={`View the ${project.name} case study`}
             >
-              <div className="relative border-b border-line bg-cream/60 p-4">
-                <div className="h-[340px]">
-                  <SystemVisual variant={project.visual} client={project.name} />
-                </div>
+              <div className="relative aspect-[4/3] overflow-hidden border-b border-line bg-cream-deep">
+                <img
+                  src={project.photo.src}
+                  alt={project.photo.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-premium group-hover:scale-[1.04]"
+                />
               </div>
 
               <div className="flex flex-1 flex-col p-6">

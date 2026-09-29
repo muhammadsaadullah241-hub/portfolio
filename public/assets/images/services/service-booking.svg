@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Smart online booking calendar with reminders and automatic rescheduling">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF3E9"/>
+      <stop offset="1" stop-color="#F1E3D1"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1A1512" flood-opacity="0.20"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1A1512" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="110" cy="120" r="130" fill="#C1502E" opacity="0.07"/>
+  <circle cx="700" cy="500" r="150" fill="#147248" opacity="0.08"/>
+
+  <!-- Card -->
+  <rect x="80" y="100" width="640" height="420" rx="20" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)" filter="url(#shadow)"/>
+  <line x1="436" y1="100" x2="436" y2="520" stroke="rgba(26,21,18,0.10)"/>
+
+  <!-- Calendar header -->
+  <text x="112" y="148" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1512">March 2026</text>
+  <circle cx="392" cy="142" r="13" fill="#EFE2D0"/>
+  <path d="M394 137l-5 5 5 5" fill="none" stroke="#675D51" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="416" cy="142" r="13" fill="#EFE2D0"/>
+  <path d="M414 137l5 5-5 5" fill="none" stroke="#675D51" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Weekdays -->
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" fill="#675D51" text-anchor="middle">
+    <text x="124" y="180">MO</text><text x="168" y="180">TU</text><text x="212" y="180">WE</text><text x="256" y="180">TH</text><text x="300" y="180">FR</text><text x="344" y="180">SA</text><text x="388" y="180">SU</text>
+  </g>
+
+  <!-- Days -->
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" text-anchor="middle">
+    <!-- Row 1 -->
+    <text x="124" y="216" fill="#B7A895">1</text>
+    <text x="168" y="216" fill="#B7A895">2</text>
+    <text x="212" y="216" fill="#B7A895">3</text>
+    <text x="256" y="216" fill="#B7A895">4</text>
+    <text x="300" y="216" fill="#B7A895">5</text>
+    <text x="344" y="216" fill="#675D51">6</text>
+    <text x="388" y="216" fill="#675D51">7</text>
+    <!-- Row 2 -->
+    <text x="124" y="260" fill="#675D51">8</text>
+    <circle cx="168" cy="256" r="15" fill="#DCEFE4"/>
+    <text x="168" y="261" fill="#147248">9</text>
+    <rect x="241" y="242" width="30" height="30" rx="9" fill="#F6DDD3"/>
+    <text x="256" y="262" fill="#A8431F">10</text>
+    <text x="300" y="260" fill="#675D51">11</text>
+    <text x="344" y="260" fill="#675D51">12</text>
+    <text x="388" y="260" fill="#675D51">13</text>
+    <!-- Row 3 -->
+    <text x="124" y="304" fill="#675D51">14</text>
+    <circle cx="168" cy="300" r="15" fill="#DCEFE4"/>
+    <text x="168" y="305" fill="#147248">15</text>
+    <text x="212" y="304" fill="#675D51">16</text>
+    <circle cx="256" cy="300" r="15" fill="#AB4A21"/>
+    <text x="256" y="305" fill="#FFFFFF">17</text>
+    <text x="300" y="304" fill="#675D51">18</text>
+    <text x="344" y="304" fill="#675D51">19</text>
+    <text x="388" y="304" fill="#675D51">20</text>
+    <!-- Row 4 -->
+    <text x="124" y="348" fill="#675D51">21</text>
+    <text x="168" y="348" fill="#675D51">22</text>
+    <text x="212" y="348" fill="#675D51">23</text>
+    <circle cx="256" cy="344" r="15" fill="#DCEFE4"/>
+    <text x="256" y="349" fill="#147248">24</text>
+    <text x="300" y="348" fill="#675D51">25</text>
+    <text x="344" y="348" fill="#675D51">26</text>
+    <text x="388" y="348" fill="#675D51">27</text>
+    <!-- Row 5 -->
+    <text x="124" y="392" fill="#B7A895">28</text>
+    <text x="168" y="392" fill="#B7A895">29</text>
+    <text x="212" y="392" fill="#B7A895">30</text>
+    <text x="256" y="392" fill="#B7A895">31</text>
+  </g>
+
+  <!-- Right: time slots -->
+  <text x="464" y="148" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1512">Available today</text>
+  <g>
+    <rect x="464" y="170" width="208" height="50" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)"/>
+    <text x="482" y="201" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#1A1512">09:00</text>
+    <text x="654" y="201" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">open</text>
+  </g>
+  <g>
+    <rect x="464" y="230" width="208" height="50" rx="12" fill="#F6FBF8" stroke="#147248" stroke-width="1.6"/>
+    <text x="482" y="261" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="700" fill="#147248">10:30</text>
+    <circle cx="642" cy="255" r="10" fill="#DCEFE4"/>
+    <path d="M637 255l3.5 3.5 6-7" fill="none" stroke="#147248" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="628" y="261" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#147248">booked</text>
+  </g>
+  <g>
+    <rect x="464" y="290" width="208" height="50" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)"/>
+    <text x="482" y="321" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#1A1512">13:00</text>
+    <text x="654" y="321" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">open</text>
+  </g>
+  <g>
+    <rect x="464" y="350" width="208" height="50" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)"/>
+    <text x="482" y="381" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#1A1512">15:30</text>
+    <text x="654" y="381" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">open</text>
+  </g>
+
+  <!-- Floating: reminder -->
+  <g filter="url(#soft)">
+    <rect x="456" y="34" width="304" height="60" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="490" cy="64" r="15" fill="#F6DDD3"/>
+  <path d="M490 55a6 6 0 00-6 6v4l-2 3h16l-2-3v-4a6 6 0 00-6-6zm-2.4 15a2.4 2.4 0 004.8 0z" fill="#A8431F"/>
+  <text x="516" y="60" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#1A1512">Reminder sent</text>
+  <text x="516" y="79" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#675D51">SMS + email, 3 touches</text>
+
+  <!-- Floating: no-shows -->
+  <g filter="url(#soft)">
+    <rect x="40" y="452" width="248" height="64" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="74" cy="484" r="15" fill="#DCEFE4"/>
+  <path d="M67 477l14 14M81 477l-14 14" stroke="#147248" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="100" y="480" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700" fill="#147248">-60%</text>
+  <text x="100" y="500" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">fewer no-shows</text>
+</svg>

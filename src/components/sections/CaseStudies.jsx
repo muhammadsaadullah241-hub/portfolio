@@ -7,6 +7,7 @@ import Counter from '../common/Counter.jsx'
 import Button from '../common/Button.jsx'
 import Badge from '../common/Badge.jsx'
 import Monogram from '../common/Monogram.jsx'
+import SmartImage from '../common/SmartImage.jsx'
 import SystemVisual from '../common/SystemVisual.jsx'
 
 function CaseStudyBlock({ study, index }) {
@@ -37,21 +38,16 @@ function CaseStudyBlock({ study, index }) {
         </Button>
       </Reveal>
 
-      {/* Real venue photo (representative) */}
+      {/* Representative photo of the business */}
       <Reveal className="mt-8">
         <figure className="overflow-hidden rounded-card border border-line">
-          <div className="aspect-[16/9] sm:aspect-[16/6]">
-            <img
+          <div className="aspect-[16/9]">
+            <SmartImage
               src={study.photo.src}
               alt={study.photo.alt}
-              loading="lazy"
-              decoding="async"
-              className="h-full w-full object-cover"
+              className="h-full w-full"
             />
           </div>
-          <figcaption className="border-t border-line px-4 py-2 text-right font-mono text-[10px] uppercase tracking-[0.14em] text-muted">
-            Representative photo
-          </figcaption>
         </figure>
       </Reveal>
 

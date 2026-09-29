@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Automated lead pipeline moving new enquiries to booked, with instant follow-up">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF3E9"/>
+      <stop offset="1" stop-color="#F1E3D1"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1A1512" flood-opacity="0.20"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1A1512" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="695" cy="120" r="130" fill="#C1502E" opacity="0.07"/>
+  <circle cx="110" cy="500" r="150" fill="#147248" opacity="0.08"/>
+
+  <!-- Board -->
+  <rect x="80" y="96" width="640" height="432" rx="20" fill="#FFFFFF" stroke="rgba(26,21,18,0.12)" filter="url(#shadow)"/>
+  <text x="112" y="140" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="18" font-weight="700" fill="#1A1512">Lead pipeline</text>
+  <rect x="300" y="124" width="86" height="24" rx="12" fill="#DCEFE4"/>
+  <text x="343" y="140" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#147248">auto follow-up</text>
+  <line x1="112" y1="158" x2="688" y2="158" stroke="rgba(26,21,18,0.10)"/>
+
+  <!-- Column 1: New -->
+  <rect x="112" y="180" width="176" height="34" rx="10" fill="#F6DDD3"/>
+  <circle cx="130" cy="197" r="4" fill="#A8431F"/>
+  <text x="142" y="202" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#A8431F">New</text>
+  <text x="270" y="202" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#A8431F">28</text>
+  <g>
+    <rect x="112" y="228" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="134" cy="252" r="12" fill="#F6DDD3"/>
+    <text x="134" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#A8431F">JM</text>
+    <rect x="154" y="242" width="96" height="8" rx="4" fill="#2A231C"/>
+    <rect x="154" y="256" width="64" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="124" y="276" width="60" height="8" rx="4" fill="#EFE2D0"/>
+  </g>
+  <g>
+    <rect x="112" y="304" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="134" cy="328" r="12" fill="#EFE2D0"/>
+    <text x="134" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#675D51">RS</text>
+    <rect x="154" y="318" width="86" height="8" rx="4" fill="#2A231C"/>
+    <rect x="154" y="332" width="56" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="124" y="352" width="54" height="8" rx="4" fill="#EFE2D0"/>
+  </g>
+  <g>
+    <rect x="112" y="380" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="134" cy="404" r="12" fill="#EFE2D0"/>
+    <text x="134" y="408" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#675D51">TP</text>
+    <rect x="154" y="394" width="92" height="8" rx="4" fill="#2A231C"/>
+    <rect x="154" y="408" width="60" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="124" y="428" width="58" height="8" rx="4" fill="#EFE2D0"/>
+  </g>
+
+  <!-- Column 2: Contacted -->
+  <rect x="312" y="180" width="176" height="34" rx="10" fill="#EFE2D0"/>
+  <circle cx="330" cy="197" r="4" fill="#675D51"/>
+  <text x="342" y="202" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#675D51">Contacted</text>
+  <text x="470" y="202" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">41</text>
+  <g>
+    <rect x="312" y="228" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="334" cy="252" r="12" fill="#DCEFE4"/>
+    <text x="334" y="256" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#147248">AK</text>
+    <rect x="354" y="242" width="100" height="8" rx="4" fill="#2A231C"/>
+    <rect x="354" y="256" width="60" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="324" y="276" width="74" height="8" rx="4" fill="#DCEFE4"/>
+  </g>
+  <g>
+    <rect x="312" y="304" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="334" cy="328" r="12" fill="#DCEFE4"/>
+    <text x="334" y="332" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#147248">MN</text>
+    <rect x="354" y="318" width="90" height="8" rx="4" fill="#2A231C"/>
+    <rect x="354" y="332" width="52" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="324" y="352" width="68" height="8" rx="4" fill="#DCEFE4"/>
+  </g>
+
+  <!-- Column 3: Booked -->
+  <rect x="512" y="180" width="176" height="34" rx="10" fill="#DCEFE4"/>
+  <circle cx="530" cy="197" r="4" fill="#147248"/>
+  <text x="542" y="202" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#147248">Booked</text>
+  <text x="670" y="202" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#147248">19</text>
+  <g>
+    <rect x="512" y="228" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="534" cy="252" r="12" fill="#DCEFE4"/>
+    <path d="M529 252l3.5 3.5 6-7" fill="none" stroke="#147248" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="554" y="242" width="102" height="8" rx="4" fill="#2A231C"/>
+    <rect x="554" y="256" width="58" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="524" y="276" width="80" height="8" rx="4" fill="#DCEFE4"/>
+  </g>
+  <g>
+    <rect x="512" y="304" width="176" height="66" rx="12" fill="#FFFFFF" stroke="rgba(26,21,18,0.10)"/>
+    <circle cx="534" cy="328" r="12" fill="#DCEFE4"/>
+    <path d="M529 328l3.5 3.5 6-7" fill="none" stroke="#147248" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="554" y="318" width="96" height="8" rx="4" fill="#2A231C"/>
+    <rect x="554" y="332" width="64" height="7" rx="3.5" fill="#B7A895"/>
+    <rect x="524" y="352" width="72" height="8" rx="4" fill="#DCEFE4"/>
+  </g>
+
+  <!-- Floating: instant reply -->
+  <g filter="url(#soft)">
+    <rect x="452" y="30" width="308" height="62" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="486" cy="61" r="15" fill="#F6DDD3"/>
+  <path d="M478 55h16v11h-9l-4 4v-4h-3z" fill="none" stroke="#A8431F" stroke-width="2" stroke-linejoin="round"/>
+  <text x="512" y="57" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="700" fill="#1A1512">New lead</text>
+  <text x="512" y="76" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#147248">replied in 60 seconds</text>
+
+  <!-- Floating: channels -->
+  <g filter="url(#soft)">
+    <rect x="120" y="452" width="220" height="60" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="152" cy="482" r="14" fill="#EFE2D0"/>
+  <text x="152" y="487" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#675D51">SMS</text>
+  <circle cx="192" cy="482" r="14" fill="#EFE2D0"/>
+  <text x="192" y="487" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#675D51">@</text>
+  <circle cx="232" cy="482" r="14" fill="#DCEFE4"/>
+  <path d="M226 482l4 4 7-8" fill="none" stroke="#147248" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="258" y="487" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#675D51">6 touches</text>
+</svg>

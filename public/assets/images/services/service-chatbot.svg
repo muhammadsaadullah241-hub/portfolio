@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="AI chatbot replying to a customer instantly, 24/7">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF3E9"/>
+      <stop offset="1" stop-color="#F1E3D1"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FBF4EA"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1A1512" flood-opacity="0.20"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1A1512" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="110" cy="120" r="130" fill="#C1502E" opacity="0.07"/>
+  <circle cx="700" cy="510" r="150" fill="#147248" opacity="0.08"/>
+  <circle cx="705" cy="115" r="80" fill="#A8431F" opacity="0.05"/>
+
+  <!-- Phone -->
+  <rect x="288" y="58" width="224" height="484" rx="38" fill="url(#screen)" stroke="rgba(26,21,18,0.14)" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="370" y="72" width="60" height="7" rx="3.5" fill="#E6D9C8"/>
+
+  <!-- Header -->
+  <circle cx="322" cy="126" r="17" fill="#147248"/>
+  <rect x="315" y="122" width="14" height="10" rx="3" fill="#DCEFE4"/>
+  <circle cx="319.5" cy="127" r="1.6" fill="#147248"/>
+  <circle cx="324.5" cy="127" r="1.6" fill="#147248"/>
+  <rect x="350" y="116" width="92" height="9" rx="4.5" fill="#2A231C"/>
+  <rect x="350" y="131" width="58" height="7" rx="3.5" fill="#B7A895"/>
+  <circle cx="484" cy="127" r="5" fill="#1E8E5A"/>
+
+  <!-- Chat: AI -->
+  <g filter="url(#soft)">
+    <rect x="306" y="158" width="168" height="46" rx="15" fill="#EFE2D0"/>
+  </g>
+  <text x="320" y="187" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#2A231C">Hi! How can I help?</text>
+
+  <!-- Chat: User -->
+  <rect x="342" y="214" width="156" height="46" rx="15" fill="#A8431F"/>
+  <text x="486" y="243" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#FFFFFF">Table for 4?</text>
+
+  <!-- Chat: AI -->
+  <rect x="306" y="270" width="184" height="46" rx="15" fill="#EFE2D0"/>
+  <text x="320" y="299" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#2A231C">Sure — 7:30 tonight?</text>
+
+  <!-- Chat: User -->
+  <rect x="362" y="326" width="136" height="46" rx="15" fill="#A8431F"/>
+  <text x="486" y="355" text-anchor="end" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="15" fill="#FFFFFF">Perfect!</text>
+
+  <!-- Typing / AI -->
+  <rect x="306" y="382" width="96" height="46" rx="15" fill="#DCEFE4"/>
+  <circle cx="333" cy="405" r="4" fill="#147248"/>
+  <circle cx="349" cy="405" r="4" fill="#147248" opacity="0.7"/>
+  <circle cx="365" cy="405" r="4" fill="#147248" opacity="0.4"/>
+
+  <!-- Quick replies -->
+  <rect x="306" y="466" width="86" height="34" rx="17" fill="#FFFFFF" stroke="#147248" stroke-width="1.5"/>
+  <text x="349" y="488" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#147248">Confirm</text>
+  <rect x="400" y="466" width="102" height="34" rx="17" fill="#FFFFFF" stroke="rgba(26,21,18,0.16)"/>
+  <text x="451" y="488" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#675D51">Reschedule</text>
+
+  <!-- Floating badge: 24/7 -->
+  <g filter="url(#soft)">
+    <rect x="120" y="150" width="152" height="62" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="152" cy="181" r="15" fill="#F6DDD3"/>
+  <path d="M152 173v8l6 3" fill="none" stroke="#A8431F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="178" y="178" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="20" font-weight="700" fill="#A8431F">24/7</text>
+  <text x="178" y="196" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">instant replies</text>
+
+  <!-- Floating badge: 48s -->
+  <g filter="url(#soft)">
+    <rect x="528" y="398" width="160" height="66" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="560" cy="431" r="15" fill="#DCEFE4"/>
+  <path d="M560 424v7h6" fill="none" stroke="#147248" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="586" y="429" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="22" font-weight="700" fill="#147248">48s</text>
+  <text x="586" y="448" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="#675D51">avg reply time</text>
+</svg>

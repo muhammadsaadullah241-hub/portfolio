@@ -78,36 +78,60 @@ export const services = [
     title: 'AI Chatbot & Support Automation',
     description:
       '24/7 instant replies on WhatsApp and your website. Never miss a lead or leave a customer waiting.',
+    image: {
+      src: '/assets/images/services/service-chatbot.svg',
+      alt: 'AI chatbot replying to a customer instantly, 24/7',
+    },
   },
   {
     icon: Users,
     title: 'AI Lead Generation & Follow-up',
     description:
       'Automated SMS and email follow-ups so no enquiry ever falls through the cracks again.',
+    image: {
+      src: '/assets/images/services/service-leads.svg',
+      alt: 'Automated lead pipeline with instant follow-up',
+    },
   },
   {
     icon: CalendarClock,
     title: 'Smart Booking & Scheduling',
     description:
       'AI handles appointments, reminders and rescheduling — cutting no-shows and double-bookings.',
+    image: {
+      src: '/assets/images/services/service-booking.svg',
+      alt: 'Smart booking calendar with reminders and rescheduling',
+    },
   },
   {
     icon: Megaphone,
     title: 'AI Marketing Content Engine',
     description:
       'Auto-generated social posts, ads and local offers tailored to your neighbourhood audience.',
+    image: {
+      src: '/assets/images/services/service-content.svg',
+      alt: 'AI content engine generating and scheduling social posts',
+    },
   },
   {
     icon: BarChart3,
     title: 'Business Data Dashboard & Insights',
     description:
       'AI-driven analytics that show exactly what is working, what is not, and where to focus next.',
+    image: {
+      src: '/assets/images/services/service-dashboard.svg',
+      alt: 'Business dashboard showing leads, bookings and revenue trends',
+    },
   },
   {
     icon: Globe,
     title: 'Custom Website + AI Integration',
     description:
       'A modern, fast website wired directly into every AI tool we set up for you.',
+    image: {
+      src: '/assets/images/services/service-website.svg',
+      alt: 'Fast custom website with an AI assistant wired in',
+    },
   },
 ]
 
@@ -126,6 +150,10 @@ export const projects = [
     summary:
       'A 24/7 WhatsApp AI assistant that takes custom cake and catering orders, confirms pickups and brings past customers back — without the owner ever picking up the phone.',
     visual: 'chatbot',
+    photo: {
+      src: '/assets/images/case-bellas.jpg',
+      alt: 'Baker smiling behind a display of fresh bread and pastries',
+    },
     overview:
       'Bella\'s Bakery is a family-run bakery doing 600+ orders a month across walk-ins, phone orders and catering. Beloved locally, but run by a team of four with no back office.',
     challenge:
@@ -175,6 +203,10 @@ export const projects = [
     summary:
       'An AI lead follow-up system that contacts every free-trial signup within 60 seconds, nurtures them for 10 days and books them straight into an intro session.',
     visual: 'leads',
+    photo: {
+      src: '/assets/images/case-fitcore.jpg',
+      alt: 'Gym member checking his phone between sets',
+    },
     overview:
       'FitCore Gym is a 1,400-member independent gym with a small front-desk team of two. Marketing was working — converting the leads was not.',
     challenge:
@@ -224,6 +256,10 @@ export const projects = [
     summary:
       'An AI booking and reminder system integrated with the clinic\'s practice software — cutting no-shows, filling cancellations and giving the front desk its day back.',
     visual: 'booking',
+    photo: {
+      src: '/assets/images/case-greenleaf.jpg',
+      alt: 'Dental hygienist talking with a smiling patient',
+    },
     overview:
       'GreenLeaf Dental Clinic is a three-dentist clinic seeing 900+ patients a month. Excellent clinical reputation, but an appointment book held together with phone calls and paper.',
     challenge:
@@ -273,6 +309,10 @@ export const projects = [
     summary:
       'A WhatsApp AI booking assistant plus automated off-peak offers that filled the quiet afternoons and ended phone tag for good.',
     visual: 'schedule',
+    photo: {
+      src: '/assets/images/case-urbancuts.jpg',
+      alt: 'Barber grooming a client\'s beard',
+    },
     overview:
       'Urban Cuts Barbershop is a three-chair barbershop with a loyal following but a strictly walk-in model that made income unpredictable.',
     challenge:
@@ -322,6 +362,10 @@ export const projects = [
     summary:
       'An AI lead qualification system that asks the right questions, scores every buyer and books viewings — so agents only spend time with serious clients.',
     visual: 'crm',
+    photo: {
+      src: '/assets/images/case-homekey.jpg',
+      alt: 'Miniature houses overlaid with a digital property network',
+    },
     overview:
       'Home & Key Realty is a boutique agency of six agents listing residential property across Miami-Dade.',
     challenge:
@@ -371,6 +415,10 @@ export const projects = [
     summary:
       'An AI content engine that writes, designs and schedules a full month of on-brand local posts and offers — turning a once-a-week afterthought into a daily presence.',
     visual: 'content',
+    photo: {
+      src: '/assets/images/case-sunrise.jpg',
+      alt: 'Coffee, croissant and a tablet on a cafe table',
+    },
     overview:
       'Sunrise Cafe is a neighbourhood coffee shop competing with a new chain on every corner.',
     challenge:
@@ -425,7 +473,7 @@ export const caseStudies = [
     tagline: 'How a 60-second text turned 180 cold trials into a membership machine',
     photo: {
       src: '/assets/images/case-fitcore.jpg',
-      alt: 'Modern gym floor with cardio equipment — representative photo',
+      alt: 'Gym member checking his phone between sets — representative photo',
     },
     industry: {
       stat: 'About 1 in 2 new gym members quit within six months.',
@@ -496,7 +544,7 @@ export const caseStudies = [
     tagline: 'Cutting no-shows by 60% and recovering $15,000 every month',
     photo: {
       src: '/assets/images/case-greenleaf.jpg',
-      alt: 'Modern dental treatment room — representative photo',
+      alt: 'Dental hygienist talking with a smiling patient — representative photo',
     },
     industry: {
       stat: 'US dental practices average a 15–20% no-show rate — about $200–400 lost per missed visit.',
@@ -567,7 +615,7 @@ export const caseStudies = [
     tagline: 'Turning a missed-call problem into +32% repeat orders',
     photo: {
       src: '/assets/images/case-bellas.jpg',
-      alt: 'Freshly baked bread on display in a bakery — representative photo',
+      alt: 'Baker smiling behind a display of fresh bread and pastries — representative photo',
     },
     industry: {
       stat: 'Restaurants miss around 34% of calls — and 85% of callers never call back.',
@@ -638,7 +686,7 @@ export const caseStudies = [
     tagline: 'From walk-ins only to fully booked on WhatsApp',
     photo: {
       src: '/assets/images/case-urbancuts.jpg',
-      alt: 'Barbershop interior with styling chairs — representative photo',
+      alt: 'Barber grooming a client\'s beard — representative photo',
     },
     industry: {
       stat: 'Beauty and barbering no-show rates run 20–30% without reminders, falling to 5–10% with them.',
@@ -696,7 +744,7 @@ export const caseStudies = [
     tagline: 'AI qualification that gives agents their evenings back',
     photo: {
       src: '/assets/images/case-homekey.jpg',
-      alt: 'Suburban American home for sale — representative photo',
+      alt: 'Miniature houses overlaid with a digital property network — representative photo',
     },
     industry: {
       stat: '78% of buyers work with the first agent to respond to their enquiry.',
@@ -754,7 +802,7 @@ export const caseStudies = [
     tagline: 'A month of content, generated in one sitting',
     photo: {
       src: '/assets/images/case-sunrise.jpg',
-      alt: 'Warm cafe interior with seating — representative photo',
+      alt: 'Coffee, croissant and a tablet on a cafe table — representative photo',
     },
     industry: {
       stat: '74% of diners use social media to decide where to eat.',
@@ -804,7 +852,7 @@ export const caseStudies = [
   },
   {
     id: 'case-iron-peak',
-    client: 'Iron Peak Plumbing',
+    client: 'Iron Peak Home Services',
     category: 'Home Services',
     location: 'Phoenix, AZ',
     timeline: '3-week build · 8-week measurement',
@@ -812,14 +860,14 @@ export const caseStudies = [
     tagline: 'Never losing another emergency call to voicemail',
     photo: {
       src: '/assets/images/case-ironpeak.jpg',
-      alt: 'Home-services technicians on site — representative photo',
+      alt: 'Home-service professional smiling at her phone — representative photo',
     },
     industry: {
       stat: 'Home-service businesses miss 27–62% of calls, and 85% of callers never call back.',
       source: '2026 missed-call statistics',
     },
     overview:
-      'Iron Peak Plumbing is a family plumbing business running four vans, where jobs went to whoever answered first.',
+      'Iron Peak Home Services is a family-run home-services business running four vans, where jobs went to whoever answered first.',
     challenge: [
       'The team was on the tools all day, so after-hours and emergency calls went to voicemail. About one in three enquiries never got a reply at all, and the rest waited until the next morning — by then most homeowners had booked someone else.',
       'Quotes were never followed up either, so warm jobs quietly went cold and the owners had no idea how much revenue was slipping away.',
@@ -856,13 +904,13 @@ export const caseStudies = [
       quote:
         'Before this, calls just fell through the cracks. Now every job gets answered and I get a text with the details. It honestly feels like having a full-time dispatcher.',
       name: 'Ray Calloway',
-      title: 'Owner — Iron Peak Plumbing',
+      title: 'Owner — Iron Peak Home Services',
       initials: 'RC',
     },
   },
   {
     id: 'case-luxe-nails',
-    client: 'Luxe Nails & Spa',
+    client: 'Luxe Beauty & Skin Studio',
     category: 'Beauty & Wellness',
     location: 'Chicago, IL',
     timeline: '2-week build · 8-week measurement',
@@ -870,14 +918,14 @@ export const caseStudies = [
     tagline: 'Turning one-time visitors into regulars on autopilot',
     photo: {
       src: '/assets/images/case-luxe.jpg',
-      alt: 'Manicure in progress at a nail salon — representative photo',
+      alt: 'Beauty-tech smart mirror running a skin analysis — representative photo',
     },
     industry: {
       stat: 'The average salon rebooking rate is ~40–45%; healthy retention is 60–70%.',
       source: 'Salon benchmarking, 2026',
     },
     overview:
-      'Luxe Nails & Spa is a six-station nail and spa studio whose chairs sat half empty between peaks — and whose regulars were quietly drifting away.',
+      'Luxe Beauty & Skin Studio is a six-station beauty and skincare studio whose chairs sat half empty between peaks — and whose regulars were quietly drifting away.',
     challenge: [
       'Most clients booked once and never came back, because nobody reminded them. Rebooking only happened if a client happened to remember, and gift-card holders often let their credit expire unused — a liability and a lost sale at the same time.',
       'The front desk juggled a paper diary and DMs across three apps, so double-bookings and gaps were a daily frustration.',
@@ -914,7 +962,7 @@ export const caseStudies = [
       quote:
         'The system remembers my clients better than I do. They get a friendly text and rebook themselves — my calendar has never been this full.',
       name: 'Lena Park',
-      title: 'Founder — Luxe Nails & Spa',
+      title: 'Founder — Luxe Beauty & Skin Studio',
       initials: 'LP',
     },
   },
